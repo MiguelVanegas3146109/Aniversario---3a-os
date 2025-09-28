@@ -256,4 +256,17 @@ button:hover {
   }
 }
 
+@media (max-width: 480px) {
+  .imagenes {
+    flex-direction: column; /* 🔥 ahora van en columna */
+    align-items: center;    /* 🔥 centradas */
+  }
+
+  .imagenes img {
+    width: 90%;   /* ocupan casi todo el ancho */
+    max-width: 280px;
+    height: auto;
+  }
+}
+
 
