@@ -90,8 +90,9 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  justify-content: flex-start; /* 🔥 no fuerza al centro */
+  min-height: auto;            /* 🔥 deja que el alto lo defina el contenido */
+  padding: 20px 0;             /* un poco de aire arriba y abajo */
 }
 
 .carta {
