@@ -219,6 +219,7 @@ button:hover {
   .imagenes {
     flex-direction: column;  /* 📌 Fotos en columna */
     align-items: center;     /* 📌 Centradas */
+    justify-content: center; /* 📌 Centradas */
   }
 
   .imagenes img {
